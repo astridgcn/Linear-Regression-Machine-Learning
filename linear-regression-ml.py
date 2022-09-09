@@ -1,3 +1,18 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Sep 07 21:28:53 2022
+
+@author: As
+"""
+# Remarques :
+# - Ce code n'est pas le plus optimisé, mais il est suffisamment simple pour illustrer le principe de l'algorithme.
+# - On pourrait par exemple récupérer les lettres d'un document texte et les stocker dans une liste.
+# - Il a été décidé (totalement arbitrairement) que les lettres bruitées ayant plus de 5 différences avec les autres lettres soient marquées comme non reconnues. (Sinon, elle est reconnnue comme celle avec qui elle a le moins grand nombre de différences).
+
+# N'hésitez pas à proposer des améliorations et/ou extensions !
+
+# ----------------- LIBRAIRIES -----------------
+
 # 1. Librairies 
 
 #Visualisation de données
@@ -8,6 +23,8 @@ import numpy as np
 #Machine Learning
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
+
+# ----------------- RÉGRESSION -----------------
 
 # 2. Donnnées
 
